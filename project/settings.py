@@ -122,20 +122,32 @@ WSGI_APPLICATION = 'project.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'multi_vendor',
+#         'USER': 'root',
+#         'PASSWORD': 'root',
+#         'HOST': 'localhost',
+#         'PORT':'',
+#         'OPTIONS': {
+#         'sql_mode': 'traditional',
+#     }
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'multi_vendor',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
-        'PORT':'',
+        'USER': 'admin',
+        'PASSWORD': 'sarbjitdeol',
+        'HOST': 'kids.cluster-cfgg2mu6ufi4.eu-north-1.rds.amazonaws.com',#13.61.9.158
+        'PORT':'3306',
         'OPTIONS': {
         'sql_mode': 'traditional',
     }
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
