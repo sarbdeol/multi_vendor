@@ -141,7 +141,7 @@ DATABASES = {
         'NAME': 'multi_vendor',
         'USER': 'admin',
         'PASSWORD': 'sarbjitdeol',
-        'HOST': 'kids.cluster-cfgg2mu6ufi4.eu-north-1.rds.amazonaws.com',#13.61.9.158
+        'HOST': 'kids.cfgg2mu6ufi4.eu-north-1.rds.amazonaws.com',#13.61.9.158
         'PORT':'3306',
         'OPTIONS': {
         'sql_mode': 'traditional',
